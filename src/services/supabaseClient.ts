@@ -1,7 +1,19 @@
-// Sebelum:
-function mapSnakeToLetterRequest(...) { ... }
-function mapSnakeToComplaint(...) { ... }
+export function mapSnakeToLetterRequest(data: any) {
+  if (!data) return null;
+  return {
+    ...data,
+    createdAt: data.created_at,
+    updatedAt: data.updated_at,
+    applicantName: data.applicant_name,
+    letterType: data.letter_type,
+  };
+}
 
-// Sesudah (Tambahkan kata 'export'):
-export function mapSnakeToLetterRequest(...) { ... }
-export function mapSnakeToComplaint(...) { ... }
+export function mapSnakeToComplaint(data: any) {
+  if (!data) return null;
+  return {
+    ...data,
+    createdAt: data.created_at,
+    updatedAt: data.updated_at,
+  };
+}
