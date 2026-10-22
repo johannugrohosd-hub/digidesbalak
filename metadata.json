@@ -1,0 +1,6 @@
+{
+  "name": "Digital Desa Pro - Sistem Informasi Manajemen Desa",
+  "description": "Sistem Informasi Manajemen Desa (SIM Desa) terintegrasi untuk administrasi kependudukan, pelayanan surat mandiri, inventaris aset, dan transparansi pemerintahan desa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
